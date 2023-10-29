@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- Remova o link do FontAwesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" ...> -->
+
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div id="stopwatch">
+        <h2 id="timer">00:00:00:00</h2>
+
+        <div id="actions">
+            <button id="reset">
+                <!-- Ícone de reinício nativo -->
+                <i>&#x21BB;</i> 
+            </button>
+            <button id="power" action="start">
+                <!-- Ícone de play nativo -->
+                <i>&#x25B6;</i>
+            </button>
+            <button id="mark">
+                <!-- Ícone de flag nativo -->
+                <i>&#9873;</i>
+            </button>
+        </div>
+
+        <div id="marks-list"></div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
